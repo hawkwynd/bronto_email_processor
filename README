@@ -1,0 +1,5 @@
+* Collect $_POST from form, and SoapApi data to bronto form.
+* Subscribe to Cafe Contact mailing list if checkbox is selected.
+* Javascript will perform form validation prior to it sending data
+* to this script. email is only required field.
+ 

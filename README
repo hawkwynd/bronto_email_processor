@@ -1,5 +1,16 @@
+BRONT EMAIL PROCESSOR
+=====================
 * Collect $_POST from form, and SoapApi data to bronto form.
 * Subscribe to Cafe Contact mailing list if checkbox is selected.
 * Javascript will perform form validation prior to it sending data
 * to this script. email is only required field.
- 
+
+PRODUCTS XML FEEDPARSE
+======================
+ * This application imports the XML file from the store.lovelesscafe.com site and
+ * creates a datagrab import XML file which is imported into the EE 'search products from store' channel.
+ *
+ * It automatically downloads the image from the product page, and if it is not in our images directory, saves
+ * a copy of it there for use in the search results. A thumbnail is also stored of the original image at 240x240 pixels.
+ *
+ * This XML generator is specific for the products only. cron job performs this function daily to update.

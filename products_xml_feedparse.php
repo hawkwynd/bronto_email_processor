@@ -1,15 +1,13 @@
 <?php
 /**
- * Date: 7/13/15
- * loveless cafe - scott fleming
+ * Date: 7/13/16
  *
- * This application imports the XML file from the store.lovelesscafe.com site and
+ * This application imports the XML file from the provider's URL and
  * prepares a datagrab XML file which is imported into the EE 'search products from store' channel.
  *
  * It automatically downloads the image from the product page, and if it is not in our images directory, saves
  * a copy of it there for use in the search results. A thumbnail is also stored of the original image at 240x240 pixels.
  *
- * This XML generator is specific for the products only. cron job performs this function daily to update.
  *
  */
 

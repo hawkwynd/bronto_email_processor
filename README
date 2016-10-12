@@ -7,7 +7,7 @@ BRONT EMAIL PROCESSOR
 
 PRODUCTS XML FEEDPARSE
 ======================
- * This application imports the XML file from the store.lovelesscafe.com site and
+ * This application imports the XML file from the URL and
  * creates a datagrab import XML file which is imported into the EE 'search products from store' channel.
  *
  * Automatically downloads the image from the product page, and if it is not in our images directory, saves

@@ -22,7 +22,7 @@ $dirname                    = $pathinfo['dirname'].'/'. $pathinfo['basename'];
 $img_source                 = "$dirname/images/products/";
 $img_dest                   = "$dirname/images/products/thumbs/";
 $supported_ext              = array('JPG','jpg','GIF','gif','PNG','png');
-$feed_url                   = "http://store.lovelesscafe.com/xBgY5P9TRM.xml";
+$feed_url                   = "http://www.example.com/feed.xml";
 $x                          = 0;
 $removedNodes               = array();
 
